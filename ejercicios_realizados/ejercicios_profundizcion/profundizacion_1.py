@@ -116,23 +116,6 @@ def busca_valor_en_lista(lista_numeros, numero_a_buscar ):
     return numero_a_buscar
 
 # ------------------------------------------
-def otras_tirada(inicio, fin, cantidad):
-
-   return cantidad 
-# Aquí dentro definir la función contar_otras_tiradas
-def contar_otras_tiradas(lista_numeros, valor):
-
-    cuenta = lista_numeros.count(valor)
-    if (cuenta>=1):
-        print('El número ', valor, 'se repite', cuenta, 'veces')
-    else:
-        print(valor)
-        #lista_numeros.append(numero_aleatorio)
-        #       break
-    return cuenta
-
-
-# --------------------------------
 
 if __name__ == '__main__':
 
@@ -149,7 +132,7 @@ if __name__ == '__main__':
     # invoca a las funciones y resuelve el enunciado
     # Leer el enunciado con atención y consultar cualquier duda
     lista_numeros = tirada(inicio, fin, cantidad)
-    #lista_numeros=['1', '2', '3', '5', '6']
+    lista_numeros=['1', '2', '3', '5', '6']
     print(lista_numeros)
 
     #lista_numeros=['1', '1', '3', '3', '3']
