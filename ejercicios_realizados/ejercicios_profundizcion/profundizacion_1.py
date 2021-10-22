@@ -93,7 +93,6 @@ def contar_primera_tirada(lista_numeros):
 
     max_repeticiones = max(lista_numeros, key=lista_numeros.count)
     cuenta = lista_numeros.count(max_repeticiones)
-    print( 'con', cuenta, 'veces')
     
     return cuenta
 
@@ -132,10 +131,8 @@ if __name__ == '__main__':
     # invoca a las funciones y resuelve el enunciado
     # Leer el enunciado con atención y consultar cualquier duda
     lista_numeros = tirada(inicio, fin, cantidad)
-    lista_numeros=['1', '2', '3', '5', '6']
     print(lista_numeros)
 
-    #lista_numeros=['1', '1', '3', '3', '3']
     valor_primer_tirada = numero_primera_tirada(lista_numeros)
     cantidad_primer_tirada = contar_primera_tirada(lista_numeros)
     
